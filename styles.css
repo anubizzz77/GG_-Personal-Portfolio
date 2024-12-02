@@ -1,10 +1,9 @@
 :root {
-    --neutral: #252047;
+    --neutral: #be3144;
     --base-100: #fffffe;
-    --neutral-focus: #121629;
-    --primary: #eebbc3;
-    --accent: #f0d4e3;
-    --secondary: #b8c1ec;
+    --primary: #be3144;
+    --main-color: #303841;
+    --main-blue: #45567d;
   }
   
   * {
@@ -64,7 +63,7 @@
   }
   
   #welcome-section {
-    background-color: var(--neutral);
+    background-color: var(--main-color);
     color: var(--base-100);
     display: flex;
     flex-direction: column;
@@ -87,12 +86,12 @@
   }
   
   #projects {
-    background-color: var(--secondary);
-    color: var(--neutral);
+    background-color: var(--main-blue);
+    color: var(--base-100);
   }
   
   #projects h1 {
-    border-bottom: 5px solid var(--neutral);
+    border-bottom: 5px solid var(--base-100);
     width: fit-content;
     margin: auto;
   }
@@ -114,7 +113,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--neutral);
+    background-color: var(--main-color);
     text-decoration: none;
     color: var(--accent);
     border-radius: 5px;
@@ -150,7 +149,7 @@
     align-items: center;
     margin: auto;
     padding: 0px 15px;
-    background-color: var(--neutral);
+    background-color: var(--main-color);
     color: var(--accent);
     font-size: 25px;
     border-radius: 5px;
@@ -164,7 +163,7 @@
   }
   
   #contact {
-    background-color: var(--neutral);
+    background-color: var(--main-color);
     color: var(--base-100);
   }
   
@@ -173,7 +172,7 @@
   }
   
   #contact .coffee-question {
-    color: var(--primary);
+    color: var(--base-100);
     font-size: 25px;
     font-style: italic;
   }
@@ -204,13 +203,13 @@
   }
   
   footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 30px;
-    border-top: 3px solid var(--primary);
-    color: var(--base-100);
-    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-color);
+    border-top: 4px solid var(--neutral);
+    color: var(--base-100)
   }
   
   @media only screen and (width < 700px) {
