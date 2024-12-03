@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link]( https://anubizzz77.github.io/GG_Personal-Portfolio/)
 
 ## Getting Started
 
