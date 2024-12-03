@@ -32,7 +32,7 @@
   
   #navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     width: 100%;
@@ -54,7 +54,8 @@
   }
   
   .nav-links a:hover {
-    text-decoration: underline;
+    background: var(--main-blue);
+    padding: 20px;
   }
   
   section {
